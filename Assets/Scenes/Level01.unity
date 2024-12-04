@@ -335,7 +335,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304560594}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 05945e0f8d7dcc24cb2c73fabf9b912a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 1720292148}
   - component: {fileID: 1720292147}
   - component: {fileID: 1720292146}
+  - component: {fileID: 1720292151}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -547,3 +548,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720292151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720292145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f731bbbb3499f8b4b8c6256e55f5bf2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1720292146}
+  forwardForce: 1500
